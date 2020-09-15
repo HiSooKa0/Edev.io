@@ -1,0 +1,153 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h4 {color: #1e836c;}
+h2, h5, h6 {
+  font-family: 'Merienda', cursive;
+  color: #1e836c;
+}
+.styled-hr {
+  height: 15px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+/*navigation bar */
+nav {
+  text-align: left;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+.Logo {
+  height: 60px;
+  width: 200px;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #222831;
+  color : #e7dfd5;
+}
+.white-section {
+  background-color: #;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+#Bio .container-fluid {
+  padding: 3% 15% 2%;
+}
+
+#Title .container-fluid {
+  padding: 1% 5% 1.75%;
+}
+/* Headings */
+.Big-heading {
+  font-family: 'Merienda', cursive;
+  font-size: 5em;
+  padding-top: 25px;
+}
+.Big-heading2 {
+  font-size: 30px;
+  padding-top: 10px;
+  font-family: 'Merienda', cursive;
+}
+.Bio-header {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  padding-bottom: 15px;
+}
+
+.para {
+  font-family: 'Arimo', sans-serif;
+  color: #52616b;
+  font-size: 22px;
+  margin: auto 18%;
+}
+.arrow {
+  margin: 20px 10px;
+}
+/* Carousel */
+.carousel .carousel-item {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+    background-image: url("images/ahdoune.png");
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+  background-image: url("images/Project1.png");
+}
+.carousel .carousel-item:last-of-type {
+    background-image: url("images/Drum .png");
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+.freelance {
+  font-size: 25px;
+  margin: 20px;
+}
+/* Contact */
+.colored-section a{
+  color : #e7dfd5;
+  text-decoration-line: none;
+  padding: 10px;
+}
+.contact-icon {
+  margin: auto 30px;
+  font-size: 15px;
+}
+.contact-icon:hover {
+  color : #96bb7c;
+}
+.copyr{
+  font-size: 14px;
+  padding-top: 37px;
+  margin-bottom: -1rem;
+}
+.dropdown-menu{
+  background-color: #222831;
+}
+
+/* phone code */
+@media (max-width: 990px) {
+.navbar-brand {
+  margin-right: -1rem;
+}
+#Title .container-fluid {
+  padding: 1% 15% 1.75%;
+}
+.Big-heading {
+  font-size: 50px;
+}
+.para {
+  font-size: 20px;
+  margin: auto 5%;
+}
+.carousel .carousel-item {
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+}
+.copyr{
+  font-size: 12px;
+  padding-top: 35px;
+  margin-bottom: -0.5rem;
+}
+}
